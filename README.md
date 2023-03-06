@@ -1,8 +1,11 @@
-# GPT in C#
+# ChatGPT in eigenen Apps
 
-Quellcode zum [Titel-Artikel](https://www.heise.de/select/ix/2023/4/xxx) von Daniel Basler, erschienen auf [Heise+](xxx) und im [iX-Magazin 04/2023](https://www.heise.de/select/ix/2023/4).
+Quellcode zum [Titel-Artikel](https://www.heise.de/select/ix/2023/4/2303109135234569183) von Daniel Basler, erschienen auf [Heise+](xxx) und im [iX-Magazin 04/2023](https://www.heise.de/select/ix/2023/4).
 
 ## iX-tract
-- Mit der OpenAI-API lässt sich das Sprachmodell, auf dem ChatGPT basiert, für eigene Anwendungen abrufen.
-- Beispielsweise mit einer in C# implementierten WPF-App können Interessierte erste Experimente mit dem Verwenden der Sprach-KI in eigenen Anwendungen durchführen.
-- Durch Zugriff auf verschiedene Modell-Parameter bietet das Einbinden der API mehr Möglichkeiten den Umgang mit Sprachmodellen zu erlernen und zu verbessern, als eine reine Webanbindung.
+- Mit der OpenAI-API lässt sich das ChatGPT-Modell gpt-3.5-turbo in eigene Programme einbinden.
+- Anstelle von Token aus unstrukturiertem Text verwendet ChatGPT eine Folge von Nachrichten zusammen mit Metadaten. OpenAI nennt das Format Chat Markup Language (ChatML).
+- Mit einer in C# implementierten WPF-App können Interessierte erste Erfahrungen
+mit dem Einbinden der Sprach-KI in eigene Anwendungen sammeln.
+- Durch Zugriff auf verschiedene Modellparameter bietet die API die Möglichkeit, den
+Umgang mit Sprachmodellen zu erlernen und zu verbessern.
