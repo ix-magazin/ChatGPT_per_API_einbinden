@@ -5,14 +5,15 @@
 
  <! -- Listing 1: Aufbau der Oberfläche in der MainWindow.xaml Code-Behind-Datei. -->
 
- <Window x:Class="ExampleChatGPTApplication.MainWindow"
+<Window x:Class="ExampleChatGPTApplication.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExampleChatGPTApplication"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
-        Title="Example ChatGPT - API" Height="500" Width="720" Loaded="Window_Loaded">
+        Title="MainWindow" Height="500" Width="720" Loaded="Window_Loaded">
     <Grid Margin="0,0,10,0">
         <TextBox Height="396" HorizontalAlignment="Left" Margin="11,10,0,0" Name="chatBox" VerticalAlignment="Top" Width="535"
                  IsReadOnly="True" TextWrapping="WrapWithOverflow" VerticalScrollBarVisibility="Visible"/>
@@ -20,9 +21,10 @@
         <TextBox Height="22" HorizontalAlignment="Left" Margin="86,414,0,0" Name="messageText" VerticalAlignment="Top" Width="460" />
         <Button Content="Send" Height="23" HorizontalAlignment="Left" Margin="564,413,0,0" Name="sendMessageButton" VerticalAlignment="Top" Width="117" Click="sendMessageButton_Click"/>
         <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="564,36,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="comboBox_SelectionChanged">
-            <ComboBoxItem>text-curie-001</ComboBoxItem>
+            <ComboBoxItem>text-davinci-002</ComboBoxItem>
             <ComboBoxItem IsSelected="True">text-davinci-003</ComboBoxItem>
             <ComboBoxItem>code-davinci-002</ComboBoxItem>
+            <ComboBoxItem>gpt-3.5-turbo</ComboBoxItem>
         </ComboBox>
         <Label x:Name="label" Content="Model:" HorizontalAlignment="Left" Margin="564,10,0,0" VerticalAlignment="Top" Width="70"/>
         <Label x:Name="label1" Content="Temperature" HorizontalAlignment="Left" Margin="564,63,0,0" VerticalAlignment="Top"/>
