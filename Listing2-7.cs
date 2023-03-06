@@ -1,4 +1,4 @@
-/* Quellcode zum iX-Artikel: Chat GPT in eigenen Apps
+/* Quellcode zum iX-Artikel: ChatGPT in eigenen Apps
  * Autor: Daniel Basler
  * Erschienen im iX Magazin 04/2023 der Heise Medien GmbH & Co. KG
  * Quelle: iX-GitHub: https://github.com/ix-magazin
