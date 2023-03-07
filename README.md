@@ -1,6 +1,6 @@
-# ChatGPT in eigenen Apps
+# ChatGPT per API einbinden
 
-Quellcode zum [Titel-Artikel](https://www.heise.de/select/ix/2023/4/2303109135234569183) von Daniel Basler, erschienen auf [Heise+](xxx) und im [iX-Magazin 04/2023](https://www.heise.de/select/ix/2023/4).
+Quellcode zum [Titel-Artikel](https://www.heise.de/select/ix/2023/4/2303109135234569183) von Daniel Basler, erschienen auf [Heise+](Platzhalter) und im [iX-Magazin 04/2023](https://www.heise.de/select/ix/2023/4).
 
 ## iX-tract
 - Mit der OpenAI-API lässt sich das ChatGPT-Modell gpt-3.5-turbo in eigene Programme einbinden.
